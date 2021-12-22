@@ -87,9 +87,9 @@ Chicago crime data - From this source you need two databases:
 Crime reported incidents for the year 2021:  
 https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2  
 Police stations:  
-https://data.cityofchicago.org/Public-Safety/Police-Stations/z8bn-74gv 
+https://data.cityofchicago.org/Public-Safety/Police-Stations/z8bn-74gv  
 Chicago city wards:  
-https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2015-/sp34-6z76
+https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2015-/sp34-6z76  
 USA Federal Holidays dates list:  
 https://www.federalpay.org/holidays
 
