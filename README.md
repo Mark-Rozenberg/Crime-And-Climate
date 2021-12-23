@@ -45,18 +45,18 @@ please see the documentation of the GHCN daily dataset for a full description of
 From the Chicago crime data i dropped the variables 'arrest' and 'domestic' due the belief that this variables can be known only after the officer is present in the crime location
 
 ## **Analysis Description**
-**Step 1** – geographical data processing
-  1.a - find the relevant climate stations from which to extract weather data. Done using the ‘Clip’ function in QGIS software, i.e the function finds the climate stations         points that fall within the Chicago wards polygons.
-  1.b - find the distance between the crime incident location to the nearest police station. Done using ‘Distance to nearest hub (points)’ in QGIS software. 
-**Step 2** – calculate daily average weather indicators of all the stations found in part 1.a
-**Step 3** – combine the different data files into the final data for training
-**Step 4** - data exploration using values count, pivot tables, graphs, means of features by key variable, logistic regression and more.
-**Step 5** – fitting 5 different scikit learn ML classification algorithms:
-  1. Multi-layer Perceptron classifier (MLPC)
-  2. Random Forest Classifier (RFC)
-  3. K-nearest Neighbors Classifier  (KNN)
-  4. Logistic Regression CV Classifier (LOG)
-  5. C-Support Vector Classifier (SVM)
+**Step 1** – geographical data processing  
+  1.a - find the relevant climate stations from which to extract weather data. Done using the ‘Clip’ function in QGIS software, i.e the function finds the climate stations         points that fall within the Chicago wards polygons.  
+  1.b - find the distance between the crime incident location to the nearest police station. Done using ‘Distance to nearest hub (points)’ in QGIS software.   
+**Step 2** – calculate daily average weather indicators of all the stations found in part 1.a  
+**Step 3** – combine the different data files into the final data for training  
+**Step 4** - data exploration using values count, pivot tables, graphs, means of features by key variable, logistic regression and more.  
+**Step 5** – fitting 5 different scikit learn ML classification algorithms:  
+  1. Multi-layer Perceptron classifier (MLPC)  
+  2. Random Forest Classifier (RFC)  
+  3. K-nearest Neighbors Classifier  (KNN)  
+  4. Logistic Regression CV Classifier (LOG)  
+  5. C-Support Vector Classifier (SVM)  
 
 **Notes:** i chose the 10 most frequent types of crime which are the classes to predict using the models
 **Step 6** - comparing the prediction results
@@ -68,9 +68,13 @@ The accuracy rates of the models were not high. The most accurate model was the 
 The PyTorch DL model did not give better results. Also the model is sensitive to changes in the structure, Such that changing the amount of neurons in the hidden layer impacts substantially on the accuracy rate.
 
 ## **Discussion**
-My approach to model’s fitting was very basic. More approaches can be implemented to improve the accuracy, for example:
-Resampling (over sampling or over sampling) to give the models more balanced classes in the data.
-Hyperparameters optimization to find better and more suitable Parameters of the models
+My approach to model’s fitting was very basic. More approaches can be implemented to improve the accuracy, for example:  
+  1. Resampling (under sampling or over sampling) to give the models more balanced classes in the data  
+  2. Hyperparameters optimization to find better and more suitable Parameters of the models  
+  3. Reduce dimensionality such that the models will be less complex with less noise  
+  4. Add more data by expanding the time horizon to previous years  
+  5. Group the classes  
+
 
 ## **KeyWords**
 Crime, Climate, GIS, QGIS, Machine Learning, Deep Learning, PyTorch, Multi-layer Perceptron, Random Forest, K-nearest Neighbors, Logistic Regression, C-Support Vector, 
