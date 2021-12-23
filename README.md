@@ -14,31 +14,31 @@ Note: links for the relevant databases needed for this project attached in the a
 ## **Data Description**
 The final dataset that was used for training ML and DL algorithms contains 173,865 observations of committed crimes in the year 2021, up to the 4th of december.
 
-**Variables:**
-'Primary_type' - type of crime
-'Date' - Date when the incident occurred
-'Hour' - Hour when the incident occurred
-'Month' - month
-'DayOfWeek' - day of the week
-'Dholiday' - dummy of official us holiday
-'Location_description' - Description of the location where the incident occurred
-'Beat' - police geographic area where the incident occurred
-'Ward' - City Council district where the incident occurred
-'HubDist' - distance between the location of the incident and the nearest police station
-'PRCP' - Precipitation
-'SNOW' - Snowfall
-'SNWD' - Snow depth
-'TMAX' - Maximum temperature
-'TMIN' - Minimum temperature
-'WDF2' - Direction of fastest 2-minute wind
-'WSF2' - Fastest 2-minute wind speed
-'WT01' - dummy of Fog, ice fog, or freezing fog
-'WT02' - dummy of Heavy fog or heaving freezing fog
-'WT03' - dummy of Thunder
-'WT04' - dummy of Ice pellets, sleet, snow pellets, or small hail
-'WT06' - dummy of Glaze or rime
-'WT08' - dummy of Smoke or haze
-'WT09' - dummy of Blowing or drifting snow
+**Variables:**  
+'Primary_type' - type of crime  
+'Date' - Date when the incident occurred  
+'Hour' - Hour when the incident occurred  
+'Month' - month  
+'DayOfWeek' - day of the week  
+'Dholiday' - dummy of official us holiday  
+'Location_description' - Description of the location where the incident occurred  
+'Beat' - police geographic area where the incident occurred  
+'Ward' - City Council district where the incident occurred  
+'HubDist' - distance between the location of the incident and the nearest police station  
+'PRCP' - Precipitation  
+'SNOW' - Snowfall  
+'SNWD' - Snow depth  
+'TMAX' - Maximum temperature  
+'TMIN' - Minimum temperature  
+'WDF2' - Direction of fastest 2-minute wind  
+'WSF2' - Fastest 2-minute wind speed  
+'WT01' - dummy of Fog, ice fog, or freezing fog  
+'WT02' - dummy of Heavy fog or heaving freezing fog  
+'WT03' - dummy of Thunder  
+'WT04' - dummy of Ice pellets, sleet, snow pellets, or small hail  
+'WT06' - dummy of Glaze or rime  
+'WT08' - dummy of Smoke or haze  
+'WT09' - dummy of Blowing or drifting snow  
 
 **Notes:**
 please see the documentation of the GHCN daily dataset for a full description of the used variables.
