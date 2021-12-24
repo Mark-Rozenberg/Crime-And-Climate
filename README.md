@@ -58,9 +58,10 @@ From the Chicago crime data i dropped the variables 'arrest' and 'domestic' due 
   4. Logistic Regression CV Classifier (LOG)  
   5. C-Support Vector Classifier (SVM)  
 
-**Notes:** i chose the 10 most frequent types of crime which are the classes to predict using the models
-**Step 6** - comparing the prediction results
-**Step 7** - fitting the most accurate model from step 6 but without the climate data. And compare the changes in accuracy.
+**Notes:** i chose the 10 most frequent types of crime which are the classes to predict using the models  
+
+**Step 6** - comparing the prediction results  
+**Step 7** - fitting the most accurate model from step 6 but without the climate data. And compare the changes in accuracy  
 **Step 8** - fit PyTorch DL model and compare prediction accuracy to the previous results.  
 
 ## **Results**
