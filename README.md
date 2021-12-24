@@ -98,3 +98,6 @@ https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards
 USA Federal Holidays dates list:  
 https://www.federalpay.org/holidays
 
+Final combined Dataset for models training on my Kaggle:  
+https://www.kaggle.com/markrozenberg/chicago-crime-with-climate-data-2021
+
